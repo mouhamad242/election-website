@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>صفحة التصويت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>التصويت</h1>
+  <form action="https://formspree.io/f/xgvaqara" method="POST">
+    <label>اختر الأدمن:</label><br>
+    <select name="admin" required>
+      <option value="">-- اختر --</option>
+      <option value="المرشح ١">المرشح ١</option>
+      <option value="المرشح ٢">المرشح ٢</option>
+      <option value="المرشح ٣">المرشح ٣</option>
+    </select><br><br>
+
+    <label>اختر نائب الأدمن:</label><br>
+    <select name="vice" required>
+      <option value="">-- اختر --</option>
+      <option value="المرشح ١">المرشح ١</option>
+      <option value="المرشح ٢">المرشح ٢</option>
+      <option value="المرشح ٣">المرشح ٣</option>
+    </select><br><br>
+
+    <label>اختر المختار:</label><br>
+    <select name="mokhtar" required>
+      <option value="">-- اختر --</option>
+      <option value="المرشح ١">المرشح ١</option>
+      <option value="المرشح ٢">المرشح ٢</option>
+      <option value="المرشح ٣">المرشح ٣</option>
+    </select><br><br>
+
+    <button type="submit">إرسال التصويت ✅</button>
+  </form>
+
+  <br>
+  <a href="index.html">⬅️ العودة إلى الرئيسية</a>
+</body>
+</html>
