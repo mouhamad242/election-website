@@ -2,33 +2,57 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>انتخابات مجموعة واتساب</title>
+  <title>انتخابات مجموعة شباب الحي</title>
   <link rel="stylesheet" href="style.css">
+  <script src="countdown.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>انتخابات مجموعة واتساب</h1>
+    <h1>انتخابات مجموعة شباب الحي</h1>
     <p>صوّت لاختيار الأدمن ونائبه والمختار</p>
   </header>
 
   <main>
-    <section class="candidates">
-      <h2>المرشحون</h2>
+    <section class="list">
+      <h2>لائحة سحمر ويحمر</h2>
+      <img src="images/gallery1.jpg" alt="لائحة سحمر ويحمر">
       <div class="card">
-        <img src="images/candidate1.jpg" alt="المرشح 1">
-        <h3><a href="candidate1.html">المرشح ١</a></h3>
+        <img src="images/gallery2.jpg" alt="الشيخ عثمان الحاجي">
+        <h3>الشيخ عثمان الحاجي<br><small>مرشح مقعد الأدمن</small></h3>
       </div>
       <div class="card">
-        <img src="images/candidate2.jpg" alt="المرشح 2">
-        <h3><a href="candidate2.html">المرشح ٢</a></h3>
+        <img src="images/gallery3.jpg" alt="محمد الجباوي">
+        <h3>محمد الجباوي<br><small>مرشح مقعد نائب الأدمن</small></h3>
       </div>
       <div class="card">
-        <img src="images/candidate3.jpg" alt="المرشح 3">
-        <h3><a href="candidate3.html">المرشح ٣</a></h3>
+        <img src="images/gallery7.jpg" alt="مرشح المختار (لاحقاً)">
+        <h3>مرشح المختار<br><small>(لاحقاً)</small></h3>
       </div>
     </section>
 
-    <a class="vote-button" href="vote.html">اذهب إلى التصويت</a>
+    <section class="list">
+      <h2>لائحة عماد رفرفت</h2>
+      <img src="images/gallery4.jpg" alt="لائحة عماد رفرفت">
+      <div class="card">
+        <img src="images/gallery5.jpg" alt="جميل الحاوي">
+        <h3>جميل الحاوي<br><small>مرشح مقعد الأدمن</small></h3>
+      </div>
+      <div class="card">
+        <img src="images/gallery9.jpg" alt="مرشح نائب الأدمن (لاحقاً)">
+        <h3>مرشح نائب الأدمن<br><small>(لاحقاً)</small></h3>
+      </div>
+      <div class="card">
+        <img src="images/gallery6.jpg" alt="المقدم عباس موسى">
+        <h3>المقدم عباس موسى<br><small>مرشح مقعد المختار</small></h3>
+      </div>
+    </section>
+
+    <div class="vote-link">
+      <h3>التصويت يبدأ خلال:</h3>
+      <div id="countdown"></div>
+      <a href="vote.html" class="vote-button">اذهب إلى التصويت</a>
+    </div>
   </main>
 </body>
 </html>
+
