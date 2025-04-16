@@ -1,51 +1,61 @@
 body {
   font-family: 'Arial', sans-serif;
-  background: #f9f7f2;
-  color: #333;
-  text-align: center;
   direction: rtl;
+  background: #fdfcf9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 header {
-  background-color: #855e42;
-  color: white;
-  padding: 20px 0;
+  background: #7a503f;
+  color: #fff;
+  padding: 20px;
 }
 
 h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 30px;
 }
 
-.candidates {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 30px;
+h2 {
+  margin-top: 40px;
+  color: #444;
+}
+
+main {
+  padding: 20px;
 }
 
 .card {
+  display: inline-block;
   background: white;
   border: 1px solid #ccc;
-  border-radius: 12px;
+  margin: 10px;
+  border-radius: 10px;
   width: 200px;
-  padding: 15px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.vote-link {
+  margin-top: 50px;
 }
 
 .vote-button {
   display: inline-block;
-  margin: 30px auto;
-  padding: 15px 25px;
+  margin-top: 15px;
+  padding: 12px 25px;
   background-color: #4CAF50;
   color: white;
+  font-size: 18px;
   text-decoration: none;
   border-radius: 8px;
-  font-size: 18px;
 }
+
